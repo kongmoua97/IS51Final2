@@ -30,9 +30,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ### Computer Solution Problem (250 points)
 
-1. Written component 50pts (~ 25 minutes)
-2. GITFlow component 50pts (~ 10 minutes)
-3. Code component 100pts (~ 115 minutes)
+1. Written component 25pts (~ 25 minutes)
+2. GITFlow component 25pts (~ 10 minutes)
+3. Code component 200pts (~ 115 minutes)
 
 You can use any resources including  your books, notes, and memos for completing this part of
 the test; however, you cannot ask, share, or consult with anyone in the world. You cannot use
