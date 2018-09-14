@@ -5,17 +5,17 @@
   <mat-card class="output-box">
     <span class="txt-invoice">Invoice</span>
     <div class="output-details">
-      <p *ngIf="output?.name">{{welcomeText}}</p>
+      <p *ngIf="output?.name"></p>
       <p *ngIf="!output?.name">Your order details will display here!</p>
       <table class="output-table">
         <tbody>
           <tr>
             <td>Subtotal</td>
-            <td>{{output?.subTotal ? (output?.subTotal | currency ) : '-'}}</td>
+            <td>'-'</td>
           </tr>
           <tr>
             <td>Tax (10%)</td>
-            <td>{{output?.taxAmount ? (output?.taxAmount | currency ): '-'}}</td>
+            <td>'-'</td>
           </tr>
           <tr>
             <td>Shipping</td>
@@ -23,7 +23,7 @@
           </tr>
           <tr>
             <td>Invoice Total</td>
-            <td>{{output?.total ? (output?.total | currency ) : '-'}}</td>
+            <td>'-'</td>
           </tr>
         </tbody>
       </table>
